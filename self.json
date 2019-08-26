@@ -1,0 +1,28 @@
+{
+  "client": {
+    "basic": {
+      "json": 2,
+      "setting": 2,
+      "design": 1,
+      "readme": 0,
+      "render_01": 1,
+      "render_02": 0,
+      "router": 1,
+      "fetch": 2,
+      "cond_render": 0,
+      "css": 0,
+      "git": 1
+    },
+    "advanced": {
+      "link": 2,
+      "back": 0,
+      "deploy": 1,
+      "loading": 0,
+      "responsive": 0,
+      "posting": 0,
+      "pagination": 0,
+      "reply": 0,
+      "env": 0
+    }
+  }
+}
