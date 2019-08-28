@@ -1,24 +1,4 @@
-/* html{
-  width:100%;
-  height:100%;
-}
 
-.users{
-  height: 300pt;
-  width: 100%;
-}
-
-#back-home{
-  float:right;
-  width:10%;
-  height:100%;
-}
-
-#user-list{
-  background-color: rgb(16, 113, 138);
-  width: 500px;
-  height: 400px;
-} */
 .side {
   float: left;
   width: 25%;
@@ -33,4 +13,13 @@
   content: "";
   display: table;
   clear: both;
+}
+
+.user-list{
+  list-style-type: none;
+}
+
+.user{
+  background-color: skyblue;
+  border:0.5pt solid;
 }
