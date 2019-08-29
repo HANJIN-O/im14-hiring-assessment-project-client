@@ -35,8 +35,9 @@ class UserTodo extends React.Component {
         </select>
         <ul>
           {this.state.todos && this.state.todos
+            // eslint-disable-next-line array-callback-return
             .filter(todo => {
-              console.log('a', todo)
+              //console.log('a', todo)
               if (this.state.selected === "all") {
                 return true;
               } else if (this.state.selected === "done") {
@@ -46,7 +47,7 @@ class UserTodo extends React.Component {
               }
             })
             .map(todo => {
-              console.log(todo)
+              //console.log(todo)
               return <li key={todo.id}>{todo.title}</li>;
             })}
         </ul>

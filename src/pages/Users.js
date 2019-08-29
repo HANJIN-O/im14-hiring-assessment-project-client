@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import remote from "../lib/koreanjson";
-import dummy from "../dummy.json";
+// import dummy from "../dummy.json";
 import queryString from "query-string";
 import "../stylesheet/Users.css";
 // import UserProfile from "../components/UserProfile";
